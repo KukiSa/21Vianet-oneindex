@@ -48,7 +48,7 @@ class AdminController{
 				$message = '保存成功';
 				config('cache_type', $_POST['cache_type']);
 			} else {
-				$message = '缓存类型不可用，请确认已经安装了该拓展。';
+				$message = '缓存类型不可用，请确认已经安装了该 PHP 扩展。';
 				config('cache_type', 'secache');
 			}
 
@@ -183,7 +183,7 @@ class AdminController{
 			$redirect_uri = 'http://'.$_SERVER['HTTP_HOST'].get_absolute_path(dirname($_SERVER['PHP_SELF']));
 		}else{
 			// 非https,调用ju.tn中转
-			$redirect_uri = 'https://pan.layne666.cn/';
+			$redirect_uri = 'https://file.iksi.me/';
 		}
 		
 		$ru = "https://developer.microsoft.com/en-us/graph/quick-start?appID=_appId_&appName=_appName_&redirectUrl={$redirect_uri}&platform=option-php";
