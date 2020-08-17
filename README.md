@@ -1,4 +1,3 @@
-<h1 align="center"><a href="https://pan.layne666.cn" target="_blank">OneIndex</a></h1>
 
 > Onedrive Directory Index
 
@@ -22,10 +21,5 @@ rewrite ^/(.*)$ /index.php?/$1 last;
 }
 ```
 
-## 预览图
 
-![](https://img.layne666.cn/images/20200814134651.png)
-
-![](http://file.layne666.cn/img/20200211210637.png)
-
-![](http://file.layne666.cn/img/20200211210644.png)
+Forked from <a href="https://github.com/Layne666/oneindex" target="_blank">github.com/Layne666/oneindex</a>
