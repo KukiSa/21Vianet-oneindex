@@ -21,5 +21,6 @@ rewrite ^/(.*)$ /index.php?/$1 last;
 }
 ```
 
+请修改 controller/AdminController.php 第 186 行为你自己的回调地址
 
 Forked from <a href="https://github.com/Layne666/oneindex" target="_blank">github.com/Layne666/oneindex</a>
